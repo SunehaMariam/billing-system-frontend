@@ -1,0 +1,190 @@
+/* ===== Page Container ===== */
+.container {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  min-height: 100vh;
+  background: #C0DFE7; /* light blue */
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== Products Card ===== */
+.products {
+  width: 45%;
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 12px 25px rgba(1, 65, 34, 0.12);
+  transition: transform 0.3s ease;
+}
+
+.products:hover {
+  transform: translateY(-4px);
+}
+
+.products h2 {
+  color: #014122;
+  margin-bottom: 16px;
+}
+
+/* ===== Product Card ===== */
+.productItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4fbfd;
+  padding: 14px 16px;
+  border-radius: 14px;
+  margin-bottom: 10px;
+  border: 1px solid #d6eef3;
+  transition: all 0.25s ease;
+}
+
+.productItem:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 18px rgba(1, 65, 34, 0.15);
+}
+
+.productItem span {
+  color: #0E2F1E;
+  font-size: 14px;
+}
+
+/* Add Button */
+.productItem button {
+  background: #014122;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.productItem button:hover {
+  background: #0F5C2E;
+  transform: translateY(-2px);
+}
+
+/* ===== Billing Card ===== */
+.billing {
+  width: 55%;
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 12px 25px rgba(1, 65, 34, 0.12);
+}
+
+.billing h2 {
+  color: #014122;
+  margin-bottom: 12px;
+}
+
+/* ===== Inputs ===== */
+.billing input,
+.billing select {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  border: 1px solid #b7dbe3;
+  background: #f6fcfe;
+  font-size: 14px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.billing input:focus,
+.billing select:focus {
+  outline: none;
+  border-color: #014122;
+  box-shadow: 0 0 0 4px rgba(1, 65, 34, 0.15);
+}
+
+/* ===== Cart Card ===== */
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4fbfd;
+  padding: 12px 14px;
+  border-radius: 14px;
+  margin-bottom: 8px;
+  border: 1px solid #d6eef3;
+  transition: transform 0.2s ease;
+}
+
+.cartItem:hover {
+  transform: translateY(-2px);
+}
+
+/* Cart Buttons */
+.cartItem button {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cartItem button:nth-child(3) {
+  background: #014122;
+  color: white;
+}
+
+.cartItem button:nth-child(4) {
+  background: #9cced8;
+}
+
+.cartItem button:nth-child(5) {
+  background: #b91c1c;
+  color: white;
+}
+
+/* ===== Totals ===== */
+.billing h3,
+.billing h4 {
+  color: #014122;
+  margin-top: 10px;
+}
+
+/* ===== Create Bill Button ===== */
+.billBtn {
+  width: 100%;
+  margin-top: 16px;
+  padding: 14px;
+  background: #014122;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.billBtn:hover {
+  background: #0F5C2E;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(1, 65, 34, 0.25);
+}
+.backBtn {
+  background: linear-gradient(135deg, #C0DFE7, #014122);
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 85%;
+  box-shadow: 0 6px 15px rgba(1, 65, 34, 0.25);
+  transition: all 0.3s ease;
+}
+
+.backBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(1, 65, 34, 0.35);
+}
+
+.backBtn:active {
+  transform: scale(0.97);
+} 

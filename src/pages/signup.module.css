@@ -1,0 +1,79 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #C0DFE7, #014122);
+}
+
+.card {
+  width: 380px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.title {
+  color: #014122;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.label {
+  font-size: 14px;
+  color: #014122;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.input {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #014122;
+  outline: none;
+  font-size: 14px;
+}
+
+.input:focus {
+  border-color: #014122;
+  box-shadow: 0 0 0 3px rgba(1, 65, 34, 0.2);
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 12px 0;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #014122);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+.note {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #014122;
+}
+
+.note a {
+  color: #014122;
+  font-weight: 600;
+}

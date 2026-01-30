@@ -1,0 +1,119 @@
+/* Main Page */
+.profilePage {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C0DFE7; /* Light Blue Theme */
+  padding: 20px;
+}
+
+/* Card Styling */
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-top: 5px solid #014122; /* Dark Green Accent */
+}
+
+/* Avatar Circle */
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: #014122; /* Dark Green */
+  color: #C0DFE7; /* Light Blue Text */
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Name & Email */
+.name {
+  font-size: 26px;
+  color: #014122; /* Dark Green */
+  margin-bottom: 5px;
+}
+
+.email {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Stats Section */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.label {
+  font-weight: 600;
+  color: #014122; /* Dark Green */
+}
+
+.value {
+  margin-left: 5px;
+  color: #333;
+}
+
+/* Buttons */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.editBtn, .logoutBtn {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.editBtn {
+  background-color: #C0DFE7; /* Light Blue */
+  color: #014122; /* Dark Green */
+  border: 2px solid #014122;
+}
+
+.editBtn:hover {
+  background-color: #014122;
+  color: #C0DFE7;
+}
+
+.logoutBtn {
+  background-color: #014122; /* Dark Green */
+  color: #C0DFE7; /* Light Blue */
+}
+
+.logoutBtn:hover {
+  background-color: #C0DFE7;
+  color: #014122;
+  border: 2px solid #014122;
+}
+
+/* Responsive */
+@media (max-width: 450px) {
+  .stats {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+}

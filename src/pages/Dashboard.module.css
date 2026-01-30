@@ -1,0 +1,129 @@
+.dashboardContainer {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(135deg, #C0DFE7, #014122);
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: rgba(255, 255, 255, 0.85);
+  border-right: 1px solid rgba(1, 65, 34, 0.25);
+  padding: 30px 20px;
+  backdrop-filter: blur(6px);
+}
+
+.logo {
+  color: #014122;
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #014122;
+  font-weight: 600;
+  display: block;
+  padding: 10px 14px;
+  border-radius: 12px;
+  transition: background 0.2s ease;
+}
+
+.sidebar a:hover {
+  background: #014122;
+  color:white;}
+
+/* Main Content */
+.mainContent {
+  flex: 1;
+  padding: 25px 40px;
+}
+
+/* Top Navbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.profile {
+  color: #014122;
+  font-weight: 700;
+}
+
+.authButtons button {
+  margin-left: 10px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.loginBtn {
+  background: #ffffff;
+  color: #014122;
+}
+
+.signupBtn {
+  background: #014122;
+  color: #ffffff;
+}
+
+.logoutBtn {
+  background: #C0DFE7;
+  color: #014122;
+}
+
+/* Content */
+.heading {
+  color: #014122;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #014122;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.cards {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 18px;
+  padding: 20px;
+  flex: 1;
+  min-width: 210px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.cardTitle {
+  color: #014122;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.cardValue {
+  font-size: 28px;
+  font-weight: 800;
+  color: #014122;
+}

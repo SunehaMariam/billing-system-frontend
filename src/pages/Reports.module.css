@@ -1,0 +1,104 @@
+.reportsPage {
+  min-height: 100vh;
+  padding: 30px;
+  background: linear-gradient(135deg, #C0DFE7, #014122);
+  font-family: Arial, sans-serif;
+  color: #014122;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* SUMMARY CARDS */
+.cardsRow {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 220px;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.18);
+}
+
+.card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #014122;
+}
+
+.card p {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+/* CHART SECTION */
+.chartSection {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 22px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.18);
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #014122;
+}
+
+/* LIST SECTION */
+.section {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 22px;
+  border-radius: 20px;
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.18);
+}
+
+.productRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.productRow:last-child {
+  border-bottom: none;
+}
+
+.productRow span {
+  color: #014122;
+  font-weight: 600;
+}
+
+.productRow strong {
+  color: #014122;
+}
+
+/* EMPTY STATE */
+.noData {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+  font-style: italic;
+}
+
+/* Recharts tweaks */
+.recharts-cartesian-axis-tick text {
+  fill: #014122;
+  font-weight: 600;
+}
+
+.recharts-tooltip-wrapper {
+  font-size: 14px;
+}
